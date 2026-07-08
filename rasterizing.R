@@ -112,3 +112,6 @@ writeRaster(mara_tpi_3x3, "data/rasters/mara_tpi_3x3.tif", overwrite = TRUE)
 par(mfrow = c(1, 2))
 plot(mara_dem_30m, main = "Elevation (m)")
 plot(mara_tpi_3x3, main = "TPI (3x3 Window)")
+
+# reset plotting
+par(mfrow = c(1, 1))
